@@ -1,0 +1,169 @@
+body{
+    background-color: #d3d3d3;
+}
+h2{
+   text-align: center;
+   font-weight: 5000;
+   font-size: 50px;
+}
+.form {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 10px; /* Reduce border-radius for rectangular form */
+    transition: 0.4s ease-in-out;
+}
+
+.card {
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 10px; /* Ensure the card is rectangular */
+    transition: all 0.3s;
+    padding: 20px; /* Add padding for better spacing */
+    max-width: 400px; /* Set a max width to keep it compact */
+    margin: 0 auto; /* Center the card */
+}
+
+.card2 {
+    border-radius: 10px; /* Maintain a rectangular shape */
+    transition: all 0.2s;
+}
+
+.card2:hover {
+    transform: scale(0.98); /* Slight scale effect */
+    border-radius: 10px; /* Keep the rectangle form on hover */
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+#heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 10px; /* Ensure rectangular inputs */
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+
+.form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+.button1, .button2, .button3 {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
+
+.button1:hover, .button2:hover {
+    background-color: black;
+    color: white;
+}
+
+.button3:hover {
+    background-color: red;
+    color: white;
+}
+
+.button1 {
+    margin-right: 0.5em;
+}
+
+.button2 {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+}
+
+.button3 {
+    margin-bottom: 3em;
+}
+
+header{
+    body {
+        font-family: sans-serif;
+        font-size: 1.125rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 50rem;
+        margin: 0 auto;
+        padding: 0 0.9375rem;
+      }
+      
+      small {
+        font-style: italic;
+      }
+      
+      article {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      img {
+        max-width: 100%;
+        display: block;
+        align-self: center;
+      }
+      
+      switch {
+        align-self: flex-end;
+        margin: 0.9375rem;
+      }
+      
+      .inner-switch {
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid #555;
+        border-radius: 1.25rem;
+        width: 3.125rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.1875rem;
+        margin-left: 0.3125rem;
+      }
+      
+      .dark,
+      .dark * {
+        background-color: #222;
+        color: #e6e6e6;
+        border-color: #e6e6e6;
+      }
+}
